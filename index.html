@@ -1,0 +1,32 @@
+<h1 class="title">Applis pour les mecs au RSA </h1>
+
+<h2>Désolé j'ai pas compter les allocs pour les enfants.</h2>
+<p>Le Montant est en euros un nombre entiers superieur a 1</p>
+<p>La Durée  est en mois un nombre entiers compris entre 1 et 235 </p>
+<p>Le Taux d'interet est en %  </p>
+
+
+<p>	<form	name="Saisie" method="post" action="javascript:Calcul();">
+
+    <table border="1" cellpadding="3" cellspacing="0">
+        <tr>
+            <th>	Montant du prêt </th>
+
+            <th>	Durée emprunt en mois </th>
+
+            <th>	Taux Interet en % </th>
+
+        </tr>
+        <tr>
+            <th>	<input type="text" size='15' name="Montant" /> </th>
+            <th>	<input type="text" size='8'  name="Duree" /> </th>
+            <th>	<input type="text" size='10' name="Taux" /> </th>
+            <th>	<input type="submit" name="Lancer" value="Calculer" /> </th>
+        </tr>
+    </table>
+</form>
+</p>
+
+<div id="result"></div>
+
+<script src="pret.js" type="text/javascript"></script>
